@@ -1,0 +1,41 @@
+.teamContainer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.teamContainer li {
+    padding: 30px;
+    width: 400px;
+    min-height: 290px;
+}
+
+.teamContainer img {
+    width: 200px;
+    height: 200px;
+}
+
+.teamMember {
+    display: flex;
+    flex-direction: row;
+}
+
+.teamMember div {
+    font-size: 20px;
+}
+
+.teamMember-info {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.teamMember-info #name {
+    font-size: 26px;
+    font-weight: 200px;
+}
+
+.teamMember-info #role {
+    font-size: 15px;
+    font-weight: 50px;
+}
