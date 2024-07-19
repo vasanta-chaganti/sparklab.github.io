@@ -1,3 +1,11 @@
+# How to get started
+- Run _npm run dev_
+- When you make a change, ctrl+s and the webpage will update
+
+# Next Steps:
+- Fill out each portion of the website (Research, Contact, Papers, and Home page)
+- Each team member creates their webpage (make a template so it is consistent)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
