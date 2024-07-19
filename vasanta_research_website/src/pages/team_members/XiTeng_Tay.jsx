@@ -13,8 +13,8 @@ function XiTeng_Tay() {
 
     return (
         <BioTemplate
-            // image='https://cdn.mos.cms.futurecdn.net/39CUYMP8vJqHAYGVzUghBX-1200-80.jpg'
-            image= {image}
+            image='https://cdn.mos.cms.futurecdn.net/39CUYMP8vJqHAYGVzUghBX-1200-80.jpg'
+            // image= {image}
             name='Xi Teng Tay'
             role='Undergraduate Research Assistant'
             description='I am an undergraduate student at Swarthmore College, pursuing a double major in Computer Science and Political Science. In my free time, I like exploring new cities, trying new coffee spots and going to the gym.'
