@@ -13,6 +13,7 @@ import Papers from './pages/Papers.jsx';
 
 // Team Pages
 import Phillip_Dinh from './pages/team_members/Phillip_Dinh.jsx';
+import XiTeng_Tay from './pages/team_members/XiTeng_Tay.jsx';
 
 // Import Navbar component
 import Navbar from './components/Navbar.jsx';
@@ -33,7 +34,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         {/* Team Pages */}
         <Route index={false} path='team/phillip-dinh' element={<Phillip_Dinh />} />
+<<<<<<< HEAD
         <Route index={false} path='team/ritika-rajamani' element={<Ritika_Rajamani />} />
+=======
+        <Route index={false} path='team/xiteng-tay' element={<XiTeng_Tay />} />
+>>>>>>> refs/remotes/origin/main
       </Route>
     </Routes>
   </BrowserRouter>
