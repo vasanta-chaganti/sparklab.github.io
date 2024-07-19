@@ -1,0 +1,40 @@
+.bio {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.picture-links {
+    flex: 1;
+}
+
+.picture-links .social-media-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.picture-links img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+.bio-description {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-description #name {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.bio-description #role {
+    font-size: 15px;
+    font-weight: 120;
+}

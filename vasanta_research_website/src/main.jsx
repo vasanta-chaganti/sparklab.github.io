@@ -11,6 +11,9 @@ import Contact from './pages/Contact.jsx';
 import Blog from './pages/Blog.jsx';
 import Papers from './pages/Papers.jsx';
 
+// Team Pages
+import Phillip_Dinh from './pages/team_members/Phillip_Dinh.jsx';
+
 // Import Navbar component
 import Navbar from './components/Navbar.jsx';
 
@@ -27,6 +30,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route index={false} path='research' element={<Research />} />
         <Route index={false} path='blog' element={<Blog />} />
         <Route index={false} path='papers' element={<Papers />} />
+
+        {/* Team Pages */}
+        <Route index={false} path='team/phillip-dinh' element={<Phillip_Dinh />} />
       </Route>
     </Routes>
   </BrowserRouter>
