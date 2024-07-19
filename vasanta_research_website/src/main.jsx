@@ -33,6 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         {/* Team Pages */}
         <Route index={false} path='team/phillip-dinh' element={<Phillip_Dinh />} />
+        <Route index={false} path='team/ritika-rajamani' element={<Ritika_Rajamani />} />
       </Route>
     </Routes>
   </BrowserRouter>
