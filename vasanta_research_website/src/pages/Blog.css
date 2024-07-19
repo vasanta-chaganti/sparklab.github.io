@@ -1,0 +1,16 @@
+.blog {
+    text-align: center;
+}
+
+.blog ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog li {
+    padding: 20px;
+}
+
+.postContainer {
+    justify-content: center;
+}

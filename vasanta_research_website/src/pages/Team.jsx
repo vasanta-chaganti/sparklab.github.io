@@ -6,7 +6,7 @@ const teamMembers = [
         name: 'Vasanta Chaganti',
         role: 'Principle Investigator',
         username: 'vasanta-chaganti',
-        img: 'https://www.w3schools.com/howto/img_avatar.png'
+        img: 'https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg'
     },
     {
         name: 'Phillip Dinh',
@@ -36,7 +36,7 @@ const teamMembers = [
         name: 'Benjamin Gottlieb',
         role: 'Research Assistant',
         username: 'benjamin-gottlieb',
-        img: 'https://www.w3schools.com/howto/img_avatar.png'
+        img: 'https://miro.medium.com/v2/resize:fit:310/0*ZYDCn6eN0BkmY8V-.'
     },
     {
         name: 'Xi Teng Tay',

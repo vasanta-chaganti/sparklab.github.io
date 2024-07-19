@@ -21,25 +21,25 @@ nav {
     color: #5b5b5b
 }
 
-ul {
+.collapseNavbarItems ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.collapseNavbarItems li {
     float: right;
     font-size: 30px;
 }
 
-li a {
+.collapseNavbarItems li a {
     padding: 0px 15px;
     color: #777777;
     font-weight: 200;
 }
 
-li a:hover {
+.collapseNavbarItems li a:hover {
     color: #5b5b5b
 }
 
