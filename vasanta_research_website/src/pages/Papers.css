@@ -1,0 +1,14 @@
+.allPapers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.paper {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+}
