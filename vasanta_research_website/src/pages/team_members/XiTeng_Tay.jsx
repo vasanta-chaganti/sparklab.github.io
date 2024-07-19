@@ -17,8 +17,13 @@ function XiTeng_Tay() {
             // image= {image}
             name='Xi Teng Tay'
             role='Undergraduate Research Assistant'
-            description='I am an undergraduate student at Swarthmore College, pursuing a double major in Computer Science and Political Science. In my free time, I like exploring new cities, trying new coffee spots and going to the gym.'
+            description='I am an undergraduate student at Swarthmore College, pursuing a double major in Computer Science and Political Science. 
+            I like thinking about the relationship between politics, social justice and technology, and the ways technology can help and harm people.
+            In my free time, I like exploring new cities, trying new coffee spots and going to the gym.'
             papers={papers}
+            linkedin='https://www.linkedin.com/in/xi-teng-tay-665a93204/'
+            github='https://github.com/xitengtay'
+            email='xtay1@swarthmore.edu'
         />
     )
 }
