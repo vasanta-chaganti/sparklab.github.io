@@ -1,7 +1,15 @@
+.papersPage {
+    margin-bottom: 150px;
+}
+
 .allPapers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .paper {
@@ -11,4 +19,23 @@
     margin: 10px;
     border: 1px solid #e7e7e7;
     border-radius: 10px;
+    padding: 1rem;
+}
+
+.paper #paperTitle {
+    font-size: 19px;
+    font-weight: 300;
+    color: #333333;
+}
+
+.paper #paperAuthors {
+    font-size: 15px;
+    font-weight: 200;
+    color: #dd2d2d;
+}
+
+.paper #paperConference {
+    font-size: 15px;
+    font-weight: 200;
+    color: #333333;
 }

@@ -1,4 +1,4 @@
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,6 @@ nav {
 }
 
 .navbar-title {
-    font-size: 30px;
     padding: 10px 0px;
     color: #777777;
     font-size: 30px;

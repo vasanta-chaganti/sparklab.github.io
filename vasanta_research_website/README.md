@@ -1,5 +1,5 @@
 # How to get started
-- Run npm install
+- Run _npm install_
 - Run _npm run dev_
 - When you make a change, ctrl+s and the webpage will update
 

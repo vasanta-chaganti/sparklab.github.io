@@ -1,0 +1,28 @@
+.researchPage {
+    margin-bottom: 150px;
+    display: 'flex';
+    flex-direction: 'column';
+}
+
+.projectItem {
+    margin: 0 10%;
+    padding-bottom: 10px;
+}
+
+.flexContainer img {
+    float: right;
+    margin: 5px;
+}
+
+.projectItem .projectTitle {
+
+    font-size: 36px;
+    color: #333333;
+    font-weight: 200;
+}
+
+.projectItem #text {
+    font-size: 19px;
+    color: #333333;
+    font-weight: 200;
+}

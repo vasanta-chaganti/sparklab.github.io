@@ -1,5 +1,5 @@
 import BioTemplate from "../../templates/biotemplate";
-import Resume from "/src/assets/Phillip_D_Resume.pdf";
+import Resume from "/src/assets/resumes/Phillip_D_Resume.pdf";
 
 function Phillip_Dinh() {
     const description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed non risus.\nSuspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.\nCras elementum ultrices diam.\nMaecenas ligula massa, varius a, semper congue, euismod non, mi.\nProin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.\nDuis semper.\n';

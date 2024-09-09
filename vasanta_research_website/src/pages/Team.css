@@ -1,3 +1,9 @@
+#teamIntro {
+    font-size: 36px;
+    color: #333333;
+    font-weight: 200;
+}
+
 .teamContainer ul {
     display: flex;
     justify-content: center;
@@ -22,7 +28,7 @@
 }
 
 .teamMember div {
-    font-size: 20px;
+    color: #333333;
 }
 
 .teamMember-info {

@@ -12,6 +12,7 @@
 }
 
 .picture-links .social-media-links {
+    color: #333333;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -29,6 +30,7 @@
 }
 
 .bio-description {
+    color: #333333;
     flex: 4;
     display: flex;
     flex-direction: column;
@@ -36,11 +38,13 @@
 }
 
 .bio-description #name {
+    color: #333333;
     font-size: 60px;
     font-weight: 200;
 }
 
 .bio-description #role {
-    font-size: 15px;
+    color: #333333;
+    font-size: 19px;
     font-weight: 120;
 }

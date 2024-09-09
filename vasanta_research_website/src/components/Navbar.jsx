@@ -5,7 +5,7 @@ import logo from '../assets/Vasanta_Lab_img_crop.png'
 const Navbar = () => {
     return (
         <>
-            <nav>
+            <nav className='navbar'>
                 <div>
                     {/* <img src={logo} id="logo" alt='Vasanta lab logo' /> */}
                     <a className='navbar-title' href='/'>Vasanta Lab</a>
@@ -19,11 +19,12 @@ const Navbar = () => {
                             </Link>
                         </li>
 
+                        {/* 
                         <li id='blog'>
                             <Link to='/blog' relative="path">
                                 Blog
                             </Link>
-                        </li>
+                        </li> */}
 
                         <li id='github'>
                             <Link to='/github' relative="path">

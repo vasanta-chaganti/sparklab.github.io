@@ -1,8 +1,8 @@
 import './biotemplate.css';
-import DocumentImage from '/src/assets/document.png';
-import LinkedInImage from '/src/assets/linkedin.png';
-import GitHubImage from '/src/assets/github.png';
-import InboxIcon from '/src/assets/inbox.png';
+import DocumentImage from '/src/assets/icons/document.png';
+import LinkedInImage from '/src/assets/icons/linkedin.png';
+import GitHubImage from '/src/assets/icons/github.png';
+import InboxIcon from '/src/assets/icons/inbox.png';
 
 function BioTemplate(props) {
 

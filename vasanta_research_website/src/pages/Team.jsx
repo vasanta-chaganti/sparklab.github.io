@@ -55,7 +55,7 @@ const teamMembers = [
 function Team() {
     return (
         <div style={{ textAlign: 'center' }}>
-            <h1 style={{ textAlign: 'center' }}>Meet the Team!</h1>
+            <h1 id='teamIntro'>Meet the Team!</h1>
 
             <div className='teamContainer'>
                 <ul>
@@ -74,7 +74,7 @@ function Team() {
                     ))}
                 </ul>
             </div>
-        </div>
+        </div >
     );
 }
 

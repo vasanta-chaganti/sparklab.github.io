@@ -65,14 +65,13 @@ function Papers() {
     ];
 
     return (
-        <div style={{ display: 'flex', flexDirection: "column", justContent: 'center', textAlign: 'center' }}>
-            <h1>Papers</h1>
+        <div className='papersPage' style={{ display: 'flex', flexDirection: "column", justContent: 'center' }}>
             <div className="allPapers">
                 {papers.map((paper, index) => (
                     <div className='paper' key={index}>
-                        <p>{paper.authors}</p>
-                        <p>{paper.title}</p>
-                        <p>{paper.journalConference}</p>
+                        <p id='paperTitle'>{paper.title}</p>
+                        <p id='paperAuthors'>{paper.authors}</p>
+                        <p id='paperConference'>{paper.journalConference}</p>
                     </div>
                 ))}
             </div>
