@@ -8,7 +8,7 @@
 # Understanding how a page works and how to manipulate one (basic web development knowledge)
 - Go to "Home.jsx"
 - Inside the return there lies HTML code.
-- Every page/jsx file requires a parent element that contains all the elements inside the page. "<div></div>" or "<></>" would work (look up differences between the two if curious).
+- Every page/jsx file requires a parent element that contains all the elements inside the page. "< div >< /div >" (ignore spaces) or "<></>" would work (look up differences between the two if curious).
 - From then on you can start coding in normal HTML and CSS. For the CSS, it is best to create a separate .css file for the site. For example, for "Home.jsx" there is "Home.css". If you are new to web development, check out this basic tutorial and feel free to make use of ChatGPT! (https://www.youtube.com/watch?v=kLO4X_3VYdg&ab_channel=freeCodeCamp.org)
 
 # Making personal profile on website
