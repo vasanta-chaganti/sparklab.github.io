@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/vasanta_research_website/'
+  base: '/sparklab.github.io/vasanta_research_website/'
 })

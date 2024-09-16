@@ -5,7 +5,7 @@ import './Team.css'
 import Vasanta_C from "/src/assets/team_photos/Vasanta_Chaganti.jpg";
 import Phillip_D from "/src/assets/team_photos/Phillip_Dinh.jpeg";
 
-const baseUrl = '/vasanta_research_website';
+const baseUrl = '/sparklab.github.io/vasanta_research_website';
 
 const teamMembers = [
     {

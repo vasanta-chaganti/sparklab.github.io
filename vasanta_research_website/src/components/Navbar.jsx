@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../assets/Vasanta_Lab_img_crop.png'
 
 const Navbar = () => {
-    const baseUrl = '/vasanta_research_website';
+    const baseUrl = '/sparklab.github.io/vasanta_research_website';
     return (
         <>
             <nav className='navbar'>

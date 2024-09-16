@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import './Footer.css';
 
 function Footer() {
-    const baseUrl = '/vasanta_research_website';
+    const baseUrl = '/sparklab.github.io/vasanta_research_website';
     return (
         <>
             <nav className='footer'>

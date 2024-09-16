@@ -31,13 +31,13 @@ const NavFooter = () => {
   );
 };
 
-const baseUrl = '/vasanta_research_website';
+const baseUrl = '/sparklab.github.io/vasanta_research_website';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<NavFooter />}>
-        <Route index={true} path='/vasanta_research_website' element={<App />} />
+        <Route index={true} path={baseUrl} element={<App />} />
         <Route index={false} path={baseUrl + '/team'} element={<Team />} />
         <Route index={false} path={baseUrl + '/github'} element={<GitHub />} />
         <Route index={false} path={baseUrl + '/contact'} element={<Contact />} />
