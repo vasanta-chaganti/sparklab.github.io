@@ -1,18 +1,24 @@
 import { Link } from 'react-router-dom';
 import './Team.css'
 
+// Team Photos
+import Vasanta_C from "/src/assets/team_photos/Vasanta_Chaganti.jpg";
+import Phillip_D from "/src/assets/team_photos/Phillip_Dinh.jpeg";
+
+const baseUrl = '/vasanta_research_website';
+
 const teamMembers = [
     {
         name: 'Vasanta Chaganti',
         role: 'Principle Investigator',
         username: 'vasanta-chaganti',
-        img: 'https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg'
+        img: Vasanta_C
     },
     {
         name: 'Phillip Dinh',
         role: 'Research Assistant',
         username: 'phillip-dinh',
-        img: 'https://ih1.redbubble.net/image.1571289629.0372/flat,750x,075,f-pad,750x1000,f8f8f8.jpg'
+        img: Phillip_D
     },
     {
         name: 'Jake Bohman',
@@ -62,7 +68,7 @@ function Team() {
                     {teamMembers.map((member, index) => (
                         <li key={index}>
                             <div className='teamMember'>
-                                <Link to={`/team/${member.username}`} >
+                                <Link to={`${baseUrl}/team/${member.username}`} >
                                     <img src={member.img} alt='Profile picture' />
                                 </Link>
                                 <div className='teamMember-info'>

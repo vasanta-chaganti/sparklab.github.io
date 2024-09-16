@@ -4,6 +4,7 @@
     align-items: stretch;
     justify-content: center;
     padding: 2rem 5rem;
+    max-width: 60%;
 }
 
 .picture-links {
@@ -33,7 +34,6 @@
     color: #333333;
     flex: 4;
     display: flex;
-    flex-direction: column;
     padding-left: 3rem;
 }
 

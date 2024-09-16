@@ -31,23 +31,26 @@ const NavFooter = () => {
   );
 };
 
+const baseUrl = '/vasanta_research_website';
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<NavFooter />}>
-        <Route index={true} path='/' element={<App />} />
-        <Route index={false} path='team' element={<Team />} />
-        <Route index={false} path='github' element={<GitHub />} />
-        <Route index={false} path='contact' element={<Contact />} />
-        <Route index={false} path='research' element={<Research />} />
+        <Route index={true} path='/vasanta_research_website' element={<App />} />
+        <Route index={false} path={baseUrl + '/team'} element={<Team />} />
+        <Route index={false} path={baseUrl + '/github'} element={<GitHub />} />
+        <Route index={false} path={baseUrl + '/contact'} element={<Contact />} />
+        <Route index={false} path={baseUrl + '/research'} element={<Research />} />
         {/* <Route index={false} path='blog' element={<Blog />} /> */}
-        <Route index={false} path='papers' element={<Papers />} />
-        <Route index={false} path='about' element={<About />} />
+        <Route index={false} path={baseUrl + '/papers'} element={<Papers />} />
+        <Route index={false} path={baseUrl + '/about'} element={<About />} />
 
         {/* Team Pages */}
-        <Route index={false} path='team/phillip-dinh' element={<Phillip_Dinh />} />
-        <Route index={false} path='team/ritika-rajamani' element={<Ritika_Rajamani />} />
-        <Route index={false} path='team/xi-teng-tay' element={<XiTeng_Tay />} />
+        {/* <Route index={false} path={baseUrl + '/team/firstName-lastName'} element={<Your import name />} /> */}
+        <Route index={false} path={baseUrl + '/team/phillip-dinh'} element={<Phillip_Dinh />} />
+        <Route index={false} path={baseUrl + '/team/ritika-rajamani'} element={<Ritika_Rajamani />} />
+        <Route index={false} path={baseUrl + '/team/xi-teng-tay'} element={<XiTeng_Tay />} />
       </Route>
     </Routes>
   </BrowserRouter>

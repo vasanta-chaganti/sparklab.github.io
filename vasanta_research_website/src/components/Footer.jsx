@@ -2,6 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import './Footer.css';
 
 function Footer() {
+    const baseUrl = '/vasanta_research_website';
     return (
         <>
             <nav className='footer'>
@@ -15,13 +16,13 @@ function Footer() {
                 <div className='collapseFooterItems'>
                     <ul>
                         <li id='about'>
-                            <Link to='/about' relative="path">
+                            <Link to={`${baseUrl}/about`} relative="path">
                                 About
                             </Link>
                         </li>
 
                         <li id='join'>
-                            <Link to='/contact' relative="path">
+                            <Link to={`${baseUrl}/contact`} relative="path">
                                 Join
                             </Link>
                         </li>

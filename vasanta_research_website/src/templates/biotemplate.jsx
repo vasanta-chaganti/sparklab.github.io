@@ -3,6 +3,7 @@ import DocumentImage from '/src/assets/icons/document.png';
 import LinkedInImage from '/src/assets/icons/linkedin.png';
 import GitHubImage from '/src/assets/icons/github.png';
 import InboxIcon from '/src/assets/icons/inbox.png';
+import GenericProfilePic from '/src/assets/icons/Generic-Profile-Image.png';
 
 function BioTemplate(props) {
 
@@ -10,13 +11,13 @@ function BioTemplate(props) {
         <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div className='bio'>
                 <div className='picture-links'>
-                    <img src={props.image} alt={`${props.name} profile picture`} />
+                    <img src={props.image ? props.image : GenericProfilePic} alt={`${props.name} profile picture`} />
                     <div className='social-media-links'>
-                        {props.type ? (
+                        {props.pdf ? (
                             <div className='social-media'>
-                                <p>{props.type}</p>
+                                <p>Resume</p>
                                 <div style={{ display: 'flex', flexDirection: 'row', paddingLeft: '1rem' }}>
-                                    <img src={DocumentImage} alt={props.type} />
+                                    <img src={DocumentImage} alt='Resume icon' />
                                     <a style={{ color: '#5b5b5b' }} href={props.pdf} target='_blank'>
                                         pdf
                                     </a>
@@ -29,7 +30,7 @@ function BioTemplate(props) {
                             <div className='social-media'>
                                 <p>LinkedIn</p>
                                 <div style={{ display: 'flex', flexDirection: 'row', paddingLeft: '1rem' }}>
-                                    <img src={LinkedInImage} alt={props.type} />
+                                    <img src={LinkedInImage} alt='LinkedIn icon' />
                                     <a style={{ paddingLeft: '5px', color: '#5b5b5b' }} href={props.linkedin} target='_blank'>
                                         LinkedIn
                                     </a>
@@ -41,7 +42,7 @@ function BioTemplate(props) {
                             <div className='social-media'>
                                 <p>GitHub</p>
                                 <div style={{ display: 'flex', flexDirection: 'row', paddingLeft: '1rem' }}>
-                                    <img src={GitHubImage} alt={props.type} />
+                                    <img src={GitHubImage} alt='GitHub icon' />
                                     <a style={{ paddingLeft: '5px', color: '#5b5b5b' }} href={props.github} target='_blank'>
                                         {props.github.split('/').slice(-1)[0]}
                                     </a>
@@ -52,9 +53,9 @@ function BioTemplate(props) {
 
                         {props.email ? (
                             <div className='social-media'>
-                                <p>GitHub</p>
+                                <p>Email</p>
                                 <div style={{ display: 'flex', flexDirection: 'row', paddingLeft: '1rem' }}>
-                                    <img src={InboxIcon} alt={props.type} />
+                                    <img src={InboxIcon} alt='Email icon' />
                                     <a style={{ paddingLeft: '5px', color: '#5b5b5b' }} href={'mailto: ' + props.email} target='_blank'>
                                         {props.email}
                                     </a>

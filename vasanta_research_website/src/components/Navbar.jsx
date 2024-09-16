@@ -3,6 +3,7 @@ import './Navbar.css';
 import logo from '../assets/Vasanta_Lab_img_crop.png'
 
 const Navbar = () => {
+    const baseUrl = '/vasanta_research_website';
     return (
         <>
             <nav className='navbar'>
@@ -14,7 +15,7 @@ const Navbar = () => {
                 <div className='collapseNavbarItems'>
                     <ul>
                         <li id='contact'>
-                            <Link to='/contact' relative="path">
+                            <Link to={`${baseUrl}/contact`} relative="path">
                                 Contact
                             </Link>
                         </li>
@@ -27,25 +28,25 @@ const Navbar = () => {
                         </li> */}
 
                         <li id='github'>
-                            <Link to='/github' relative="path">
+                            <Link to={`${baseUrl}/github`} relative="path">
                                 GitHub
                             </Link>
                         </li>
 
                         <li id='papers'>
-                            <Link to='/papers' relative="path">
+                            <Link to={`${baseUrl}/papers`} relative="path">
                                 Papers
                             </Link>
                         </li>
 
                         <li id='research'>
-                            <Link to='/research' relative="path">
+                            <Link to={`${baseUrl}/research`} relative="path">
                                 Research
                             </Link>
                         </li>
 
                         <li id='team'>
-                            <Link to='/team' relative="path">
+                            <Link to={`${baseUrl}/team`} relative="path">
                                 Team
                             </Link>
                         </li>

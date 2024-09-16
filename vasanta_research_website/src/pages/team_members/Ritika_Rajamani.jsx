@@ -11,7 +11,6 @@ function Ritika_Rajamani() {
             name='Ritika Rajamani'
             role='Research Assistant'
             description={description}
-            type='Resume'
             pdf={Resume}
             linkedin=''
             github=''
