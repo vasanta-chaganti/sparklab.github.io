@@ -27,6 +27,9 @@
 - (OPTIONAL) With your profile picture in "team_members" import your picture and set img to it
 - If you want to remove a member, simply take out the object.
 
+# Editing base url (look for creating a global var file later)
+- The base url variable is located in 'main.jsx', 'Navbar.jsx', 'Footer.jsx', 'Team.jsx'
+
 # Next Steps:
 - Fill out each portion of the website (Research, Contact, Papers, and Home page)
 - Each team member creates their webpage (make a template so it is consistent)
